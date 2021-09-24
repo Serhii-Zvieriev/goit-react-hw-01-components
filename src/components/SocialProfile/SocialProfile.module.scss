@@ -1,0 +1,50 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.profile {
+  width: 320px;
+  padding: 50px;
+  margin-left: 20px;
+
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.description {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.avatar {
+  border: #ccc 1px solid;
+  border-radius: 50%;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+
+  background-color: rgb(99, 96, 96);
+}
+
+.label,
+.quantity {
+  display: block;
+  margin: auto;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 4px;
+  }
+}
