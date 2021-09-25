@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+
+  padding: 10px;
+
+  box-shadow: 0px 0px 10px 4px rgba(34, 60, 80, 0.2);
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.avatar {
+  margin-right: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.status {
+  display: block;
+  align-self: center;
+
+  width: 10px;
+  height: 10px;
+
+  margin-right: 10px;
+
+  background-color: red;
+  border-radius: 50%;
+}
